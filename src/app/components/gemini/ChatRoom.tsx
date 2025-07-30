@@ -289,7 +289,7 @@ const ChatRoom: React.FC = () => {
                   isDark ? "text-gray-200" : "text-gray-800"
                 }`}
               >
-                Hello! I'm Gemini
+                Hello! I&apos;m Gemini
               </h2>
               <p
                 className={`max-w-md ${

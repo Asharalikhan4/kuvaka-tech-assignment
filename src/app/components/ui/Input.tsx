@@ -3,9 +3,7 @@ import React from "react";
 import { clsx } from "clsx";
 import { useThemeStore } from "@/app/store/themeStore";
 
-export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {}
-
-export const Input = React.forwardRef<HTMLInputElement, InputProps>(
+export const Input = React.forwardRef<HTMLInputElement, React.InputHTMLAttributes<HTMLInputElement>>(
   ({ className, type, ...props }, ref) => {
     const { isDark } = useThemeStore();
 
