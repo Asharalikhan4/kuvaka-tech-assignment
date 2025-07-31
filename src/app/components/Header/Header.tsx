@@ -18,7 +18,7 @@ export function Header() {
           <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full"></div>
           <div>
             <h1 className={`font-semibold ${isDark ? "dark:text-slate-100" : "text-slate-900"}`}>
-              Gemini Clone
+              Gemini AI
             </h1>
             {user && (
               <p className="text-sm text-slate-600 dark:text-slate-400">

@@ -4,8 +4,6 @@ import {
   Plus,
   Sparkles,
   X,
-  Moon,
-  Sun,
   Image,
   Menu,
 } from "lucide-react";
@@ -184,18 +182,6 @@ const ChatRoom: React.FC = () => {
           >
             Chats
           </h2>
-          <button
-            onClick={toggleTheme}
-            className={`p-2 rounded-lg ${
-              isDark ? "hover:bg-gray-700" : "hover:bg-gray-200"
-            }`}
-          >
-            {isDark ? (
-              <Sun className="w-4 h-4 text-gray-300" />
-            ) : (
-              <Moon className="w-4 h-4 text-gray-600" />
-            )}
-          </button>
         </div>
 
         <div className="p-4">

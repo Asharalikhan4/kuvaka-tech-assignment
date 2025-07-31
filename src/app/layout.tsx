@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gemini Clone",
+  title: "Gemini AI",
   description: "kuvaka tech assignment",
 };
 
